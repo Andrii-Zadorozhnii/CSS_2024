@@ -1,0 +1,28 @@
+@import 'reset';
+
+$colour: #FEDF43;
+
+$w : 300px;
+$h : 300px;
+
+@mixin bradius($rad) {
+    -webkit-border-radius: $rad;
+    border-radius: $rad;
+}
+
+.two {
+    color: $colour;
+    width: $w * 2;
+    height: $h;
+}
+
+.one {
+    @extend .two;
+    @include bradius(12px)
+}
+
+.three {
+    color: $colour;
+    width: $w / 3;
+
+}

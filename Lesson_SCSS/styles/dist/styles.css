@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+
+.two, .one {
+  color: #FEDF43;
+  width: 600px;
+  height: 300px;
+}
+
+.one {
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+
+.three {
+  color: #FEDF43;
+  width: 100px;
+}

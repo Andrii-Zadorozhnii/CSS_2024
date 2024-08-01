@@ -1,0 +1,40 @@
+// SCSS
+
+// Variables
+
+$fz : 14px;
+$ff : Arial,
+Tahoma,
+sans-serif;
+
+
+@import './reset/reset';
+
+body {
+    font-size: $fz;
+    font-family: $ff;
+}
+
+h1 {
+    font-size: $fz + 10px;
+}
+
+h2 {
+    font-size: $fz + 8px;
+}
+
+nav {
+    color: red;
+
+    & li {
+        color: green;
+    }
+}
+
+.link {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
